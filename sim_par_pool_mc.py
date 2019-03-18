@@ -35,13 +35,13 @@ def f(x):
 
 a = 0
 b = 1
-h = 0.01
+h = 0.001
 x = np.arange(a,b,h)
 y0 = 0
 n = 100000
 
 with open("par_pool_mc_sim_data.csv","a") as csvfile:
-	for proc in np.arange(10,11,1):
+	for proc in np.arange(9,11,1):
 		for i in np.arange(0,10,1):
 			np.random.seed(seed=int(tm.time()))
 			start = tm.time()

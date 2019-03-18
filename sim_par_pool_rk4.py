@@ -34,7 +34,7 @@ def f(x):
 
 a = 0
 b = 1
-h = 0.01
+h = 0.001
 x = np.arange(a,b,h)
 y0 = 0
 
